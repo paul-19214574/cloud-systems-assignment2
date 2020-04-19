@@ -9,6 +9,7 @@
 | File                               | Purpose                                                                                         |
 | -----------------------------------| ----------------------------------------------------------------------------------------------- |
 | CURL-Commands.sh                   | Shell script containing CURL commands to enable firewall and add rules to permit access         |
+| Organisation-Network-Diagram.png   | Diagram of the organisation from a network perspective                                          |
 | Start-Services.py                  | Python script to start the sshd on all servers for clients to connect to test connectivity      |
 
 
