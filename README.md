@@ -31,21 +31,27 @@
 ## Steps
 
 1. From terminal (Open mininet console and MiniNAM and creates topology)
+
      `sudo python MiniNAM.py --custom Create-Organisation-Topology.py --topo organisationtopo --controller remote`
 
-2. From mininet console, start controller terminal 
+2. From mininet console, start controller terminal
+
      `xterm c0`
 
 3. From controller terminal, start ryu "firewall" controller
+
     `ryu-manager ryu.app.rest_firewall`
 
 4. From mininet console, start SSH daemons
+
     `source py Start-Services.py`
 
 5. From terminal, configure firewall rules
+
     `./CURL-Commands.sh`
 
-6. From mininet console, verify connectivety between nodes 
+6. From mininet console, verify connectivety between nodes
+
      `pingall`
 
 7. From mininet console, verify SSH connectivity
