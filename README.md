@@ -8,6 +8,7 @@
 
 | File                               | Purpose                                                                                         |
 | -----------------------------------| ----------------------------------------------------------------------------------------------- |
+| Assignment-Report.pdf              | Report on the approach and results of the assignment                                            |
 | CURL-Commands.sh                   | Shell script containing CURL commands to enable firewall and add rules to permit access         |
 | Create-Organisation-Topology.py    | Python script to create the organisation's topology using Mininet                               |
 | Organisation-Network-Diagram.png   | Diagram of the organisation from a network perspective                                          |
