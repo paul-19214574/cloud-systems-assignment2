@@ -55,4 +55,5 @@
      `pingall`
 
 7. From mininet console, verify SSH connectivity
+
      `ssh XXX@YYYYYYYYYYY`
